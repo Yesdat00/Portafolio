@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Portafolio</title>
+    <link rel="shortcut icon" href="assets/media/1.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Demo styles -->
+  </head>
+
+<body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header_container">
+                <img src="assets/media/Logo.svg" alt="" class="header_img">
+                <a href="#" class="header_logo">Megan Espindola</a>
+    
+                <div class="header_audio">             
+                    <audio controls id="audio_control">
+                    <source src="assets/media/2.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio></div>
+    
+                <div class="header_toggle">
+                    <i class="uil uil-bars" id="header-toggle"></i>
+                </div>
+            </div>
+        </header>
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav_container">
+                <div>
+                    <a href="#" class="nav_link nav_logo">
+                       <img src="assets/media/Logo.svg" alt="" class=""> 
+                    </a>
+                    <div class="nav_list">
+                        <div class="nav_items">
+                            <h3 class="nav_subtitle">Megan Espindola</h3>
+    
+                            <a href="inicio.html" class="nav_link">
+                                <i class="uil uil-estate nav_icon"></i>
+                                <span class="nav_name">Inicio</span>
+                            </a>
+                            
+                            <div class="nav_dropdown">
+                                <a href="#portafolio" class="nav_link ">
+                                    <i class="uil uil-briefcase-alt nav_icon"></i>
+                                    <span class="nav_name">Portafolio</span>
+                                    <i class="uil uil-angle-down nav_icon nav_dropdown-icon"></i>
+                                </a>
+
+                                <div class="nav_dropdown-collapse">
+                                    <div class="nav_dropdown-content">
+                                        <a href="editorial.html" class="nav_dropdown-item">Editorial</a>
+                                        <a href="ilustracion.html" class="nav_dropdown-item">Ilustración</a>
+                                        <a href="foto.html" class="nav_dropdown-item">Fotografia</a>
+                                        <a href="modelado.html" class="nav_dropdown-item">Modelado</a>
+                                        <a href="splano.html" class="nav_dropdown-item">Soporte Plano</a>
+                                        <a href="tipografia.html" class="nav_dropdown-item">Tipografia</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="contacto.html" class="nav_link">
+                                <i class="uil uil-envelope nav_icon"></i>
+                                <span class="nav_name"> Contacto</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            <div class="nav_items"></div>
+                <a href="#" class="nav_link nav_theme">
+                    <i class="uil uil-moon change-theme nav_icon" id="theme-button"></i>
+                    <span class="nav_name"> Modo </span>
+                </a>
+            </div>
+            </nav>
+        </div>
+
+<!--========== PORTAFOLIO ==========-->
+    <section class="portafolio section" id="portafolio">
+        <a name="portafolio">
+        <h2 class="section_title"> PORTAFOLIO </h2>
+        </a>
+            <div class="portafolio_container bd-grid">
+                <div class="portafolio_img">
+                    <img src="assets/media/intro1.jpg" alt="">
+
+                <div class="portafolio_link">
+                    <a href="editorial.html" class="portafolio_link-name">Editorial</a>
+                </div>
+            </div>
+                <div class="portafolio_img">
+                    <img src="assets/media/intro2.jpg" alt="">
+
+                    <div class="portafolio_link">
+                        <a href="foto.html" class="portafolio_link-name">Fotografía</a>
+                    </div>
+                </div>
+                <div class="portafolio_img">
+                    <img src="assets/media/intro3.jpg" alt="">
+
+                    <div class="portafolio_link">
+                        <a href="ilustracion.html" class="portafolio_link-name">Ilustración</a>
+                    </div>
+                </div>
+                <div class="portafolio_img">
+                    <img src="assets/media/intro4.jpg" alt="">
+
+                    <div class="portafolio_link">
+                        <a href="modelado.html" class="portafolio_link-name">Modelado</a>
+                    </div>
+                </div>
+                <div class="portafolio_img">
+                    <img src="assets/media/intro5.jpg" alt="">
+
+                    <div class="portafolio_link">
+                        <a href="splano.html" class="portafolio_link-name">Soporte Plano</a>
+                    </div>
+                </div>
+                <div class="portafolio_img">
+                    <img src="assets/media/intro6.jpg" alt="">
+
+                    <div class="portafolio_link">
+                        <a href="tipografia.html" class="portafolio_link-name">Tipografía</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+  <!--==========  FOOTER ==========-->
+<footer class="footer">
+    <div class="footer_bg">
+        <p class="footer_copy">&#169; Espindola Gleason</p>            
+    </div>        
+</footer>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

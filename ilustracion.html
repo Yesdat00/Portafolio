@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Portafolio / Fotografia</title>
+    <link rel="shortcut icon" href="assets/media/1.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+  </head>
+
+<body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header_container">
+                <img src="assets/media/Logo.svg" alt="" class="header_img">
+                <a href="#" class="header_logo">Megan Espindola</a>
+    
+                <div class="header_audio">             
+                    <audio controls id="audio_control">
+                    <source src="assets/media/2.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio></div>
+    
+                <div class="header_toggle">
+                    <i class="uil uil-bars" id="header-toggle"></i>
+                </div>
+            </div>
+        </header>
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav_container">
+                <div>
+                    <a href="#" class="nav_link nav_logo">
+                       <img src="assets/media/Logo.svg" alt="" class=""> 
+                    </a>
+                    <div class="nav_list">
+                        <div class="nav_items">
+                            <h3 class="nav_subtitle">Megan Espindola</h3>
+    
+                            <a href="inicio.html" class="nav_link">
+                                <i class="uil uil-estate nav_icon"></i>
+                                <span class="nav_name">Inicio</span>
+                            </a>
+                            
+                            <div class="nav_dropdown">
+                                <a href="portafolio.html" class="nav_link ">
+                                    <i class="uil uil-briefcase-alt nav_icon"></i>
+                                    <span class="nav_name">Portafolio</span>
+                                    <i class="uil uil-angle-down nav_icon nav_dropdown-icon"></i>
+                                </a>
+
+                                <div class="nav_dropdown-collapse">
+                                    <div class="nav_dropdown-content">
+                                        <a href="editorial.html" class="nav_dropdown-item">Editorial</a>
+                                        <a href="#ilustracion" class="nav_dropdown-item">Ilustración</a>
+                                        <a href="foto.html" class="nav_dropdown-item">Fotografia</a>
+                                        <a href="modelado.html" class="nav_dropdown-item">Modelado</a>
+                                        <a href="splano.html" class="nav_dropdown-item">Soporte Plano</a>
+                                        <a href="tipografia.html" class="nav_dropdown-item">Tipografia</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="contacto.html" class="nav_link">
+                                <i class="uil uil-envelope nav_icon"></i>
+                                <span class="nav_name"> Contacto</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            <div class="nav_items"></div>
+                <a href="#" class="nav_link nav_theme">
+                    <i class="uil uil-moon change-theme nav_icon" id="theme-button"></i>
+                    <span class="nav_name"> Modo </span>
+                </a>
+            </div>
+            </nav>
+        </div>
+<!--==========  EDITORIAL ==========-->
+    <section class="ilustracion section" id="ilustracion">
+        <a name="ilustracion">
+        <h2 class="section_title"> ILUSTRACIÓN </h2>
+        </a>
+        <span></span>
+        <div class="gallery" id="lightgallery">
+            <a href="assets/media/Ilustracion/1.jpg" class="foto">
+            <img src="assets/media/Ilustracion/1.jpg" />
+            </a>
+            
+            <a href="assets/media/Ilustracion/2.jpg" class="foto">
+            <img alt=".." src="assets/media/Ilustracion/2.jpg" />
+            </a>
+
+            <a href="assets/media/Ilustracion/3.jpg" class="foto">
+            <img alt=".." src="assets/media/Ilustracion/3.jpg" />
+            </a>
+
+            <a href="assets/media/Ilustracion/4.jpg" class="foto">
+            <img src="assets/media/Ilustracion/4.jpg" />
+            </a>
+            
+            <a href="assets/media/Ilustracion/5.jpg" class="foto">
+            <img alt=".." src="assets/media/Ilustracion/5.jpg" />
+            </a>
+
+            <a href="assets/media/Ilustracion/6.jpg" class="foto">
+            <img alt=".." src="assets/media/Ilustracion/6.jpg" />
+            </a>
+
+            <a href="assets/media/Ilustracion/7.jpg" class="foto">
+            <img src="assets/media/Ilustracion/7.jpg" />
+            </a>
+                
+            <a href="assets/media/Ilustracion/8.jpg" class="foto">
+            <img alt=".." src="assets/media/Ilustracion/8.jpg" />
+            </a>
+    
+            <a href="assets/media/Ilustracion/9.jpg" class="foto">
+            <img alt=".." src="assets/media/Ilustracion/9.jpg" />
+            </a>
+    
+            <a href="assets/media/Ilustracion/10.jpg" class="foto">
+            <img src="assets/media/Ilustracion/10.jpg" />
+            </a>  
+        
+        </div>
+</section>
+
+  <!--==========  FOOTER ==========-->
+<footer class="footer">
+    <div class="footer_bg">
+        <p class="footer_copy">&#169; Espindola Gleason</p>            
+    </div>        
+</footer>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js" ></script>
+        <script type="text/javascript">
+            lightGallery(document.getElementById('lightgallery'));
+        </script>
+    </body>
+</html>

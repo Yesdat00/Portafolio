@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/media/1.ico" type="image/x-icon">
+        <!--========== ICONS ==========-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Contacto</title>
+    </head>
+
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header_container">
+                <img src="assets/media/Logo.svg" alt="" class="header_img">
+                <a href="#" class="header_logo">Megan Espindola</a>
+    
+                <div class="header_audio">             
+                    <audio controls id="audio_control">
+                    <source src="assets/media/2.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio></div>
+    
+                <div class="header_toggle">
+                    <i class="uil uil-bars" id="header-toggle"></i>
+                </div>
+            </div>
+        </header>
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav_container">
+                <div>
+                    <a href="#" class="nav_link nav_logo">
+                       <img src="assets/media/Logo.svg" alt="" class=""> 
+                    </a>
+
+                    <div class="nav_list">
+                        <div class="nav_items">
+                            <h3 class="nav_subtitle">Megan Espindola</h3>
+    
+                            <a href="inicio.html" class="nav_link">
+                                <i class="uil uil-estate nav_icon"></i>
+                                <span class="nav_name">Inicio</span>
+                            </a>
+                            
+                            <div class="nav_dropdown">
+                                <a href="portafolio.html" class="nav_link">
+                                    <i class="uil uil-briefcase-alt nav_icon"></i>
+                                    <span class="nav_name">Portafolio</span>
+                                    <i class="uil uil-angle-down nav_icon nav_dropdown-icon"></i>
+                                </a>
+                                <div class="nav_dropdown-collapse">
+                                    <div class="nav_dropdown-content">
+                                        <a href="editorial.html" class="nav_dropdown-item">Editorial</a>
+                                        <a href="ilustracion.html" class="nav_dropdown-item">Ilustración</a>
+                                        <a href="foto.html" class="nav_dropdown-item">Fotografia</a>
+                                        <a href="modelado.html" class="nav_dropdown-item">Modelado</a>
+                                        <a href="splano.html" class="nav_dropdown-item">Soporte Plano</a>
+                                        <a href="tipografia.html" class="nav_dropdown-item">Tipografia</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#contacto" class="nav_link">
+                                <i class="uil uil-envelope nav_icon"></i>
+                                <span class="nav_name"> Contacto</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            <div class="nav_items"></div>
+                <a href="#" class="nav_link nav_theme">
+                    <i class="uil uil-moon change-theme nav_icon" id="theme-button"></i>
+                    <span class="nav_name"> Modo </span>
+                </a>
+            </div>
+            </nav>
+        </div>
+
+        <!--========== CONTACTO ==========-->
+        <section class="contacto section" id="contact">
+    <main>
+            <a name="contacto">
+            <h2 class="section_title"> CONTACTO </h2>
+            </a>
+            <span class="section_subtitle"> Ponte en Contacto</span>
+            <div class="contacto_container container grid">
+                <div class="container_info">
+                    <div class="personal_grid">
+                        <div class="contacto_info">
+                            <i class="uil uil-mobile-android contacto_icon"></i>
+                            <div>
+                                <h3 class="contacto_title"> Escribe</h3>
+                                <span class="contacto_subtitle"> 55-8430-7547</span>
+                            </div>
+                        </div>
+
+                        <div class="contacto_info">
+                            <i class="uil uil-envelope-alt contacto_icon"></i>
+                            <div>
+                                <h3 class="contacto_title"> Email</h3>
+                                <span class="contacto_subtitle"> megesp1@hotmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contacto_info">
+                            <i class="uil uil-map-marker contacto_icon"></i>
+                            <div>
+                                <h3 class="contacto_title"> Localización </h3>
+                                <span class="contacto_subtitle"> México - CDMX </span>
+                            </div>
+                        </div>  
+                    </div>
+                        <div class="contacto_map">
+                            <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15044.170699908727!2d-99.1975852054321!3d19.496799706566236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb02529ee38b8bf6!2sUniversidad%20Aut%C3%B3noma%20Metropolitana%20Azcapotzalco!5e0!3m2!1ses!2smx!4v1633316502891!5m2!1ses!2smx"
+                            frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0">
+                            </iframe>
+                        </div>                  
+                </div>
+
+        <form class="contacto_form grid" action="https://formspree.io/f/xpzknakd" method="POST">
+            <div class="contacto_inputs grid">
+                <h2 class="form_title">Contáctame</h2>
+                <div class="contacto_content">
+                    <label for="" class="contacto_label"> Nombre </label>
+                    <input type="text" class="contacto_input" name="message">
+                </div>
+            
+                <div class="contacto_content">
+                    <label for="" class="contacto_label"> Email</label>
+                    <input type="email" class="contacto_input" name="_replyto" required="">
+                </div>
+            </div>
+                    
+                <div class="contacto_content">
+                    <label for="" class="contacto_label"> Proyecto </label>
+                    <input type="text" class="contacto_input" name="message" required="">
+                </div>
+                    
+                <div class="contacto_content">
+                    <label for="" class="contacto_label"> Mensaje</label>
+                    <textarea rows="7" class="contacto_input contacto_input-message" name="message"></textarea>
+                </div>
+                    <div class="contacto_submit">
+                        <input type="submit" value="Enviar" class="contacto_cta">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer_bg">
+        <p class="footer_copy">&#169; Espindola Gleason</p>            
+    </div>        
+</footer>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
